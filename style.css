@@ -117,7 +117,7 @@ a {
 .hero {
     height: 520px;
     margin-inline: auto;
-    background: url("/SVG/perfil.svg") no-repeat;
+    background: url("SVG/perfil.svg") no-repeat;
     background-position: center;
     background-size: contain;
     margin-block: 1em;
@@ -207,10 +207,10 @@ a {
 
 .conocimientos__contenido{
     background-image:
-        url('./SVG/tres-cuadrados1.svg'),
-        url('./SVG/tres-cuadrados2.svg'),
-        url('./SVG/tres-cuadrados3.svg'),
-        url('./SVG/tres-cuadrados4.svg');
+        url('SVG/tres-cuadrados1.svg'),
+        url('SVG/tres-cuadrados2.svg'),
+        url('SVG/tres-cuadrados3.svg'),
+        url('SVG/tres-cuadrados4.svg');
     background-repeat: no-repeat;
     background-position: 
         top 3em left 3em,
@@ -283,8 +283,8 @@ a {
 .porfolio-completo{
     padding: 2em 5em;
     background-image:
-    url('./SVG/completo1.svg'),
-    url('./SVG/completo2.svg'),
+    url('SVG/completo1.svg'),
+    url('SVG/completo2.svg'),
     linear-gradient(#223346, #182330);
 /*     width: 1200px; */
     background-repeat: no-repeat;
