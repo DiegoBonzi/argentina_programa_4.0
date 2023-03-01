@@ -9,9 +9,10 @@ function setup() {
 
 function draw() {
   background(13, 20, 27);
-
   noiseX += -0.001 * 5;
-  for (let y = 0; y < height; y++ /1000) {
+
+  //strokeWeight(3) 
+  for (let y = 0; y < height; y += 2) {
     let noiseY = y * noiseScale;
     let noiseValue = noise(noiseX, noiseY) * noiseStrength * 2;
     stroke(255, 70, 124);
