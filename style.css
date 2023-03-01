@@ -115,7 +115,7 @@ a {
 .hero {
     height: 520px;
     margin-inline: auto;
-    background: url("SVG/perfil.svg") no-repeat;
+    background: url('SVG/perfil.svg') no-repeat;
     background-position: center;
     background-size: contain;
     margin-block: 1em;
